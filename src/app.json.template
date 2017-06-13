@@ -9,7 +9,7 @@
         "rtf",
         "odt"
     ],
-    "companyName": "[ COMPANY NAME HERE ]",
+    "companyName": "LABUR, LLC",
     "defaultLocale": "en-US",
     "supportedLocales": [
         "en-US",
@@ -20,9 +20,9 @@
     "maxUploadSize": 5242880,
     "service": {
         "batchSize": 500,
-        "corpToken": "[ CORP TOKEN HERE ]",
+        "corpToken": "1XOC9",
         "port": null,
-        "swimlane": "[ SWIMLANE HERE ]"
+        "swimlane": "30"
     },
     "integrations": {
         "linkedin": {

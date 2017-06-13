@@ -97,12 +97,34 @@ section.job-list {
                         font-weight: 500;
                         text-overflow: ellipsis;
                         overflow: hidden;
-                        white-space: nowrap;
+                        white-space: pre-line;
+                        height:58px;
                         display: none;
+                        &:after {
+                            content: "";
+                            pointer-events: none;
+                            position: absolute;
+                            width: 30%;
+                            height: 50%;
+                            bottom: 0;
+                            right: 0;
+                            background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+                            background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+                            background-image: -ms-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+                            background-image: -o-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+                            background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); // content: '';
+                            // position: absolute;
+                            // top: 0;
+                            // right: 0;
+                            // width: 30%;
+                            // height: 100%;
+                            // pointer-events: none;
+                        }
 
                         @include desktop() {
                             display: inline-block;
                         }
+                         
                     }
                 }
             }

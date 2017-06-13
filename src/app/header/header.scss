@@ -7,6 +7,7 @@ header.app {
     background-color: $header-bg;
     color: $white;
     z-index: $header-z-index;
+    text-align: center;
 
     @include desktop() {
         text-align: left;
@@ -20,7 +21,8 @@ header.app {
         text-overflow: ellipsis;
         overflow: hidden;
         line-height: $header-height;
-        width: 75%;
+        width: 100%;
+        text-align: center;
     }
 
     > button {

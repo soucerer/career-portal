@@ -4,21 +4,21 @@
 // endbower
 
 $white: #FFFFFF;
-$primary: #5198DE;
-$secondary: #ACC72E;
+$primary: #339966;
+$secondary: #33cc66;
 $light-bg: #F4F4F4;
-$dark-bg: #2E2F30;
+$dark-bg: #333333;
 $header-bg: $primary;
-$sidebar-header-bg: #252728;
+$sidebar-header-bg: $primary;
 $toggle-active: #fff;
 $cancel: darken($light-bg, 15%);
 $error: #da4453;
 
 $font-size: 13px;
 $font-family: 'Roboto';
-$base-color: #46474A;
+$base-color: #333333;
 
-$header-height: 60px;
+$header-height: 86px;
 $sidebar-width: 300px;
 $sidebar-width-small: 50px;
 

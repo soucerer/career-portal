@@ -6,11 +6,13 @@ import JobListController from './list/list.controller';
 import JobDetailController from './detail/detail.controller';
 import CareerPortalModalController from './modal/modal.controller';
 import CareerPortalSidebarController from './sidebar/sidebar.controller';
+//import CareerPortalLaburnavController from './laburnav/laburnav.directive';
 
 import Main from './main/main.directive';
 import CareerPortalSidebar from './sidebar/sidebar.directive';
 import CareerPortalHeader from './header/header.directive';
 import CareerPortalModal from './modal/modal.directive';
+import CareerPortalLaburnav from './laburnav/laburnav.directive';
 
 import SearchService from './services/search.service';
 import MobileDetection from './services/mobiledetection.service';
@@ -37,6 +39,7 @@ angular.module('CareerPortal', ['ngAnimate', 'ngTouch', 'ngSanitize', 'ui.router
     .directive('careerPortalSidebar', () => new CareerPortalSidebar())
     .directive('careerPortalHeader', () => new CareerPortalHeader())
     .directive('careerPortalModal', () => new CareerPortalModal())
+    .directive('careerPortalLaburnav', () => new CareerPortalLaburnav())
     .controller('JobListController', JobListController)
     .controller('JobDetailController', JobDetailController)
     .controller('CareerPortalModalController', CareerPortalModalController)
